@@ -19,19 +19,35 @@ if (input3 >=0) {
     
 }
 
-var result = confirm('Do you want to skip the Welcoming Message');
-console.log('Confirm result is : ', result);
+var result = prompt('Do you want to skip the Welcoming Message');
 
+if (result!=null && input1=='male') {
 
-if (input1=male) {
+    alert (` Welcome Mr ${input0}`);
 
-    console.log('Mr '), input1 ;
+ } else if (result!=null && input1=='female'){
 
-}else if (input1=='female'){
-  
-  console.log('Ms ',input1);
+    alert (` Welcome Ms ${input0}`);
+   
+ }else{
+     
+  var result = confirm('    ');
+  console.log('Confirm result is : ', result);
 
-}else{
-    alert ('Welcom')
 }
 
+
+/*if (input1='male') {
+
+    alert (` Welcome Mr ${input0}`);
+
+ } else if (input1=='female'){
+
+    alert (` Welcome Ms ${input0}`);
+   
+ }else{
+     
+  var result = confirm('Do you want to skip the Welcoming Message');
+  console.log('Confirm result is : ', result);
+
+}*/
