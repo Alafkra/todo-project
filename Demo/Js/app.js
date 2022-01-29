@@ -1,6 +1,6 @@
 'use strict';
 
-/* var input0 = prompt(' Enter Your Name: ');
+ var input0 = prompt(' Enter Your Name: ');
 console.log('Your Name is : ', input0); 
 //////////////////////////////////////////
 var input1 = prompt(' Enter Your gender: ');
@@ -36,7 +36,7 @@ if (!result & (input1 =='male')) {
 }
 
 ///////////////////////////////////////////////////////////////////////
-*/
+
 /*
 
  let answer00 = prompt('Are you sure you want to proceed?')
